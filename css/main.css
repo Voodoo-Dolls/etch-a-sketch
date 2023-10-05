@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 960px;
+}
+#etch-a-sketch{
+    width: 100%;
+    margin:0 auto;
+    border:black solid 1px;
+    display:flex;
+}
+
+.block{
+    border: 1px solid black;
+}

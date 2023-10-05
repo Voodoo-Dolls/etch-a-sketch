@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <h1>etch-a-sketch</h1>
+    <div class="container">
+        <div class="options">
+            <input type="color" id="color-picker" onchange="clickColor(0, -1, -1, 5)" value="#000000" style="width:10%;">
+            <input type="number" id="board-picker" value="16" max="100" min="16">
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+        <div id="etch-a-sketch"></div>
+    </div>
+
+</body>
+</html>
